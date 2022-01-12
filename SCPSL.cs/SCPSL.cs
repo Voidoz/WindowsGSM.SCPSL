@@ -20,7 +20,7 @@ namespace WindowsGSM.Plugins
             name = "WindowsGSM.SCPSL", // WindowsGSM.XXXX
             author = "Oscar Hurst",
             description = "⚠Work-In-Progress⚠ 🧩 WindowsGSM plugin for supporting SCP:SL Servers",
-            version = "1.0",
+            version = "1.0.1",
             url = "https://github.com/Voidoz/WindowsGSM.SCPSL", // Github repository link (Best practice)
             color = "#FF9966" // Color Hex
         };
@@ -45,7 +45,8 @@ namespace WindowsGSM.Plugins
         public string Port = "7777"; // Default port
         public string QueryPort = "7777"; // Default query port
 
-
+        // Game Settings
+        public string Defaultmap = ""; // No default map in SCP:SL
         public string Maxplayers = "See Config"; // Found in the game config
 
         // Additional command line arguments
